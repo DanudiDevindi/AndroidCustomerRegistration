@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Beginner</string>
+
+    <!--    login activity-->
+
+    <string name="txt_login">Login</string>
+    <string name="btn_in">Sign In</string>
+    <string name="btn_up">Sign Up</string>
+    <string name="etxt_password">Password</string>
+    <string name="etxt_username">Username</string>
+
+    <!--    sign up activity-->
+
+    <string name="txt_heading">Welcome to Beginner App</string>
+    <string name="mobile_no">Mobile No.</string>
+
+<!--    content activity-->
+
+    <string name="content_list">Content List</string>
+    <string name="database">Database</string>
+    <string name="service">Service</string>
+    <string name="broadcast">Broadcast</string>
+
+<!--    Broadcast activity-->
+
+    <string name="broadcastUI">BroadCast</string>
+    <string name="broadcastDecs">  When device perform an
+        action automatically OS trigger an intent by mentioning that action.</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+    <string name="receiverDesc">Broadcast
+        receiver is an Android component which allows you to
+        receive application events. All the registered application
+        are notified by the Android runtime once event happens.</string>
+    <string name="testing">Testing</string>
+    <string name="testingDesc">No plug your phone, you\'ll receive
+        an alert by mentioning that action.( Broadcasting concept has
+        used for this implemention }</string>
+
+<!--    service activity-->
+
+    <string name="serviceDesc">Android service is a component
+        that is used to perform operations on the background such
+        as playing music, handle network transactions, interacting
+        content providers etc. It doesn\'t has any UI.</string>
+    <string name="serviceDesc2">Service is running as a background
+        operation in the ui thread. The service should stop itself
+        when its job is complete by calling stopSelf(), or another
+        component can stop it by calling stopService().</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="testDesc">Click start button, then onStartCommand()
+        get invoked and service will start to running.When clicking stop,
+        stopService() get invoked and service will stop running</string>
+
+</resources>
